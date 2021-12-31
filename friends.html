@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends - Snoopy Talk</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>KT</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>15:06</span>
+    </div>
+    <div class="status-bar__column">
+      <span>11%</span>
+      <i class="fas fa-battery-quarter fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  <header class="screen-header">
+    <h1 class="screen-header__title">Friends</h1>
+    <div class="screen-header__icons">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><i class="fas fa-cog fa-lg"></i></span>
+    </div>
+  </header>
+  <a id="friends-display-link">
+    <i class="fas fa-info-circle"></i> Friends' Names Display
+    <i class="fas fa-chevron-right fa-xs"></i>
+  </a>
+  <main class="friends-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="./images/snoopy.gif" alt="Snoopy" class="user-component__avartar user-component__avartar--sm" />
+        <div class="user-component__text">
+          <h4 class="user-component__title">Snoopy</h4>
+          <h6 class="user-component__subtitle">Merry Christmas🎁</h6>
+        </div>
+      </div>
+      <div class="user-component__column"></div>
+    </div>
+    <div class="friends-screen__birthday">
+      <div class="friends-screen__birthday-header">
+        <span>Friends with Birthdays</span>
+        <i class="fas fa-angle-up"></i>
+      </div>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <div class="user-component__avartar user-component__avartar--sm birthday-component__avartar--sm">
+          <i class="fas fa-birthday-cake"></i>
+        </div>
+        <div class="user-component__text">
+          <h4 class="user-component__title user-component__title--not-bold">View more birthdays</h4>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <div>
+          <span>1</span>
+          <i class="fas fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+    </div>
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <span>Channel</span>
+        <i class="fas fa-angle-down"></i>
+      </div>
+    </div>
+    <div class="friends-screen__user">
+      <div class="friends-screen__user-header">
+        <span>Friends</span>
+        <i class="fas fa-angle-up"></i>
+      </div>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="./images/charlie.gif" alt="Charlie" class="user-component__avartar user-component__avartar--sm" />
+        <div class="user-component__text">
+          <h4 class="user-component__title user-component__title--not-bold">Charlie</h4>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <div class="user-component__music">
+          <span>Ed Sheeran - Photograph</span>
+          <i class="fas fa-play-circle"></i>
+        </div>
+      </div>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="./images/lucy.gif" alt="Lucy" class="user-component__avartar user-component__avartar--sm" />
+        <div class="user-component__text">
+          <h4 class="user-component__title user-component__title--not-bold">Lucy</h4>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <div class="user-component__music">
+          <span>Maroon 5 - Sugar</span>
+          <i class="fas fa-play-circle"></i>
+        </div>
+      </div>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="./images/sally.gif" alt="Sally" class="user-component__avartar user-component__avartar--sm" />
+        <div class="user-component__text">
+          <h4 class="user-component__title user-component__title--not-bold">Sally</h4>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <div class="user-component__music">
+          <span>Coldplay - Fix You</span>
+          <i class="fas fa-play-circle"></i>
+        </div>
+      </div>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="./images/woodstock.gif" alt="Woodstock" class="user-component__avartar user-component__avartar--sm" />
+        <div class="user-component__text">
+          <h4 class="user-component__title user-component__title--not-bold">Woodstock</h4>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <div class="user-component__music">
+          <span>Justin Bieber - Peaches</span>
+          <i class="fas fa-play-circle"></i>
+        </div>
+      </div>
+    </div>
+  </main>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">3</span>
+          <i class="far fa-comment fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+      <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+    </ul>
+  </nav>
+  <div id="splash-screen">
+    <img src="./images/splash.gif" alt="splash">
+  </div>
+  <div id="no-mobile">
+    <span>Your screen is too big ㅠㅠ</span>
+  </div>
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
