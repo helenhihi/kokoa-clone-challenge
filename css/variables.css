@@ -1,0 +1,10 @@
+:root {
+  --yellow: rgba(231, 231, 97, 0.705);
+  --olive: rgb(195, 195, 83);
+  --blue: rgba(46, 134, 235, 0.548);
+  --badge: rgba(46, 134, 235, 0.678);
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --side-color: rgba(0, 0, 0, 0.5);
+}
+
