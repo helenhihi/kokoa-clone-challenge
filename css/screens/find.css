@@ -104,7 +104,7 @@
     transform: none;
   }
   50% {
-    color: blueviolet;
+    color: red;
     transform: scale(2);
   }
   100% {
@@ -116,4 +116,12 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+
+.white-heart {
+  color: white;
+}
+
+.red-heart {
+  color: red;
 }
